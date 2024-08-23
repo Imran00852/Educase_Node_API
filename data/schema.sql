@@ -1,0 +1,7 @@
+CREATE TABLE schools(
+  id VARCHAR(255) PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  address VARCHAR(50) NOT NULL,
+  latitude FLOAT(10,7) NOT NULL,
+  longitude FLOAT(10,7) NOT NULL
+)
