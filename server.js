@@ -11,6 +11,7 @@ const app = express();
 //using middlewares
 app.use(express.json());
 
+
 //routes
 app.use("/api", schoolRouter);
 

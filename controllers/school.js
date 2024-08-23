@@ -18,7 +18,6 @@ export const addSchool = (req, res) => {
   const values = [uuidv4(), name, address, longitude, latitude];
 
   connection.query(q, values, (err, result) => {
-    console.log(result);
     if (err) {
       console.log(err);
       return res.status(500).json({
