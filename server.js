@@ -15,7 +15,9 @@ app.use(express.json());
 app.use("/api", schoolRouter);
 
 app.get("/", (req, res) => {
-  res.send(<h1>Welcome.Check API Documentation in order to access API's</h1>);
+  res.send(
+    "<h1>Welcome.<br>Check API Documentation in order to access API's</h1>"
+  );
 });
 app.listen(process.env.PORT, () => {
   console.log(`Server is running on port ${process.env.PORT}`);
