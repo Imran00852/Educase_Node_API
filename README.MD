@@ -20,7 +20,7 @@ A Node.js API to add and sort schools based on proximity to the user's location.
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/school-finder-api.git
+   git clone https://github.com/Imran00852/Educase_Node_API.git
    cd school-finder-api
 2. **Install Dependencies**
    ```bash
